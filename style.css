@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sixtyfour+Convergence&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: wheat;
+}
+
+.container{
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container h1{
+  margin: 20px;
+}
+
+.container input{
+  padding: 5px;
+  min-width: 500px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+  outline: black;
+  padding-left: 20px;
+}
+
+.container button{
+  padding: 5px;
+  font-size: 20px;
+  min-width: 60px;
+  border-radius: 8px;
+  border: 2px solid black;
+  cursor: pointer;
+  background: rgb(14, 45, 198);
+  color: white;
+}
+
+.show{
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  margin: 20px auto;
+  text-align: left;
+  padding: 5px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: none;
+}
